@@ -1,5 +1,6 @@
 :root {
     --clr-text: #0a0903;
+    --clr-text-reverse: #e7ecef;
     --main-font: "Lora", serif;
     --links-font: "Open Sans", sans-serif;
 }
@@ -101,3 +102,40 @@ h3 {
 }
 
 /*--------Footer-------*/
+.footer {
+    background-color: #627f78;
+    color: var(--clr-text-reverse);
+    padding: 40px 0 20px;
+}
+
+.footer__content .footer__content__logo {
+    width: 70px;
+}
+
+.footer__content__logo img {
+    width: 100%;
+    text-align: center;
+}
+
+.footer .footer__content__social {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    margin-top: 20px;
+}
+
+.footer__content__social__list a {
+    display: block;
+    max-width: 16px;
+}
+
+.footer__content__social__list a > img {
+    width: 100%;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-family: var(--links-font);
+}
