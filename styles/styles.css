@@ -1,0 +1,103 @@
+:root {
+    --clr-text: #0a0903;
+    --main-font: "Lora", serif;
+    --links-font: "Open Sans", sans-serif;
+}
+
+/*--------Global styles-------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.6%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-weight: 300;
+    font-family: var(--main-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h3 {
+    text-transform: lowercase;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+}
+
+.wrapper {
+    width: 80%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+/*--------Header-------*/
+.header {
+    padding: 10px 0;
+}
+
+.header > .wrapper {
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header__logo {
+    width: 70px;
+}
+
+.header__logo img {
+    width: 100%;
+    text-align: center;
+}
+
+.header__nav {
+    display: none;
+}
+/*--------Banner-------*/
+.banner {
+    height: 50vh;
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)
+        ),
+        url(/assets/mae-mu-vbAEHCrvXZ0-unsplash-dk_pkp7mp_c_scale\,w_686.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner > .wrapper {
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.banner .banner__textCont > h1 {
+    font-size: 5rem;
+}
+
+.banner .banner__textCont > h2 {
+    font-family: var(--links-font);
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 1.4rem;
+}
+
+/*--------Footer-------*/

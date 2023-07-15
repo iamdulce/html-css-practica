@@ -3,14 +3,28 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/styles/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300;400&display=swap"
+            rel="stylesheet"
+        />
+
         <title>Home | Dulce Flores</title>
     </head>
     <body>
-        <!-- nav begins -->
-        <nav>
-            <div>
-                <a class="logo" href="/">d.</a>
-                <div>
+        <!-- header begins -->
+        <header class="header">
+            <div class="wrapper">
+                <div class="header__logo" href="/">
+                    <img
+                        src="/assets/logo1.png"
+                        alt="Portfolio logo: Letter d inside keys."
+                    />
+                </div>
+                <!-- nav begins -->
+                <nav class="header__nav">
                     <ul>
                         <li>
                             <a href="#skills">Skills</a>
@@ -22,41 +36,27 @@
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- nav ends -->
-        <!-- header begins -->
-        <header>
-            <picture>
-                <source
-                    srcset="
-                        /assets/mae-mu-vbAEHCrvXZ0-unsplash-dk_pkp7mp_c_scale,w_1400.jpg
-                    "
-                    media="(min-width: 1140px)"
-                />
-                <source
-                    srcset="
-                        /assets/mae-mu-vbAEHCrvXZ0-unsplash-dk_pkp7mp_c_scale,w_1211.jpg
-                    "
-                    media="(min-width: 768px)"
-                />
-                <img
-                    src="/assets/mae-mu-vbAEHCrvXZ0-unsplash-dk_pkp7mp_c_scale,w_686.jpg"
-                    alt="cherrys in a blue backgraound"
-                />
-            </picture>
-            <div>
-                <h1>Dulce Flores</h1>
-                <h2>Code Newbie & Full Stack dev in progress</h2>
+                </nav>
+                <!-- nav ends -->
             </div>
         </header>
-        <!-- header begins -->
+        <!-- header ends -->
+
+        <!-- banner begins -->
+        <section class="banner">
+            <div class="wrapper">
+                <div class="banner__textCont">
+                    <h1>hi, i'm dulce!</h1>
+                    <h2>Code Newbie & Full Stack dev in progress</h2>
+                </div>
+            </div>
+        </section>
+        <!-- banner ends -->
+
         <!-- main begins -->
         <main>
             <!-- skills section begins -->
             <section class="skills">
-                <!-- wrapper begins -->
                 <div class="wrapper">
                     <div>
                         <h3>About me</h3>
@@ -71,18 +71,20 @@
                         <div>>>>>Aquí van las skills<<<<</div>
                     </div>
                 </div>
-                <!-- wrapper ends -->
             </section>
             <!-- skills section ends -->
+
             <!-- projects section begins -->
             <section class="projects">
-                <h3>Want to see my projects?</h3>
-                <a href="">Check here!</a>
+                <div class="wrapper">
+                    <h3>Want to see my projects?</h3>
+                    <a href="">Check here!</a>
+                </div>
             </section>
             <!-- projects section ends -->
+
             <!-- contact section begins -->
             <section class="contact">
-                <!-- wrapper begins -->
                 <div class="wrapper">
                     <h3>let's connect</h3>
                     <form action="">
@@ -103,7 +105,7 @@
                             <input type="text" id="github" />
                         </div>
                         <fieldset>
-                            <legend>Where do you knoe me from?</legend>
+                            <legend>Where do you know me from?</legend>
                             <div>
                                 <label for="university">University</label>
                                 <input type="radio" id="university" />
@@ -130,29 +132,32 @@
                         </div>
                         <div>
                             <button type="submit">Send</button>
+                            <button type="reset">Reset</button>
                         </div>
                     </form>
                 </div>
-                <!-- wrapper ends -->
             </section>
-            <!-- contact section begins -->
+            <!-- contact section ends -->
         </main>
-        <!-- main begins -->
+        <!-- main ends -->
+
         <!-- footer begins -->
         <footer>
-            <a class="logo" href="/">d.</a>
-            <ul class="social">
-                <li>
-                    <a href="github">g.</a>
-                </li>
-                <li>
-                    <a href="linkedin">l.</a>
-                </li>
-                <li>
-                    <a href="twiiter">t.</a>
-                </li>
-            </ul>
-            <p class="copyright">Designed by Dulce Flores</p>
+            <div class="wrapper">
+                <a class="logo" href="/">d.</a>
+                <ul class="social">
+                    <li>
+                        <a href="github">g.</a>
+                    </li>
+                    <li>
+                        <a href="linkedin">l.</a>
+                    </li>
+                    <li>
+                        <a href="twiiter">t.</a>
+                    </li>
+                </ul>
+                <p class="copyright">Designed by Dulce Flores</p>
+            </div>
         </footer>
         <!-- footer ends -->
     </body>
