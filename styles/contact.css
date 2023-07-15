@@ -1,0 +1,65 @@
+.contact__form {
+    font-family: var(--links-font);
+}
+
+.contact__form__element {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.contact__form__label,
+.contact__form__element > h4 {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.contact__form__element > h4 {
+    font-weight: lighter;
+}
+
+.contact__form__element textarea {
+    height: 150px;
+}
+
+.contact__form__referral-options > div {
+    margin-top: 5px;
+}
+
+.contact__form__element--checkbox {
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact__form__element--checkbox input[type="checkbox"] {
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.contact__form__input {
+    height: 40px;
+    border: 1px solid var(--clr-text);
+    padding: 10px;
+}
+
+.contact__form__input::placeholder {
+    font-family: var(--links-font);
+}
+
+.btn {
+    background-color: #b7e8dc;
+    color: var(--clr-text);
+    font-family: var(--links-font);
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 1.4rem;
+    letter-spacing: 0.15rem;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact__form > .contact__form__btns {
+    text-align: center;
+}

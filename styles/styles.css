@@ -24,6 +24,10 @@ body {
     font-family: var(--main-font);
 }
 
+main > section {
+    padding-bottom: 120px;
+}
+
 a {
     text-decoration: none;
 }
@@ -43,6 +47,12 @@ h3 {
     width: 80%;
     max-width: 120rem;
     margin: 0 auto;
+}
+
+.wrapper h3 {
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 2.2rem;
 }
 
 /*--------Header-------*/
@@ -71,7 +81,7 @@ h3 {
 }
 /*--------Banner-------*/
 .banner {
-    height: 50vh;
+    height: 60vh;
     background-image: linear-gradient(
             rgba(255, 255, 255, 0.5),
             rgba(255, 255, 255, 0.5)
