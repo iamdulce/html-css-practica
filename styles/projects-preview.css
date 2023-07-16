@@ -6,7 +6,7 @@
             rgba(255, 255, 255, 0.6),
             rgba(255, 255, 255, 0.6)
         ),
-        url(assets/mae-mu-g733A40xl3Q-unsplash_xqpclt_c_scale\w_812.jpg);
+        url(../assets/mae-mu-g733A40xl3Q-unsplash_xqpclt_c_scale\w_812.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,7 +29,7 @@
                 rgba(255, 255, 255, 0.6),
                 rgba(255, 255, 255, 0.6)
             ),
-            url(assets/mae-mu-g733A40xl3Q-unsplash_xqpclt_c_scale\w_1225.jpg);
+            url(../assets/mae-mu-g733A40xl3Q-unsplash_xqpclt_c_scale\w_1225.jpg);
     }
 
     .projects-preview .projects-preview__link {
@@ -62,6 +62,6 @@
                 rgba(255, 255, 255, 0.6),
                 rgba(255, 255, 255, 0.6)
             ),
-            url(assets/mae-mu-g733A40xl3Q-unsplash_xqpclt_c_scale\w_1400.jpg);
+            url(../assets/mae-mu-g733A40xl3Q-unsplash_xqpclt_c_scale\w_1400.jpg);
     }
 }

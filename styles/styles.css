@@ -91,7 +91,7 @@ h3 {
             rgba(255, 255, 255, 0.5),
             rgba(255, 255, 255, 0.5)
         ),
-        url(assets/mae-mu-vbAEHCrvXZ0-unsplash-dk_pkp7mp_c_scale\w_686.jpg);
+        url(../assets/mae-mu-vbAEHCrvXZ0-unsplash-dk_pkp7mp_c_scale\w_686.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -201,7 +201,7 @@ h3 {
                 rgba(255, 255, 255, 0.5),
                 rgba(255, 255, 255, 0.5)
             ),
-            url(assets/mae-mu-vbAEHCrvXZ0-unsplash-dk_pkp7mp_c_scale\w_1211.jpg);
+            url(../assets/mae-mu-vbAEHCrvXZ0-unsplash-dk_pkp7mp_c_scale\w_1211.jpg);
     }
 
     .banner .banner__textCont > h1 {
@@ -237,7 +237,7 @@ h3 {
                 rgba(255, 255, 255, 0.5),
                 rgba(255, 255, 255, 0.5)
             ),
-            url(assets/mae-mu-vbAEHCrvXZ0-unsplash-dk_pkp7mp_c_scale\w_1400.jpg);
+            url(../assets/mae-mu-vbAEHCrvXZ0-unsplash-dk_pkp7mp_c_scale\w_1400.jpg);
     }
 
     .banner .banner__textCont > h1 {
