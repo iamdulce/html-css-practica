@@ -1,0 +1,118 @@
+.projects-page .projects-page__title {
+    font-size: 4rem;
+    margin: 40px 0 60px;
+}
+
+.projects-page__video {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.projects-page__multimedia .projects-page__video img {
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    max-width: 600px;
+}
+
+.projects-page__multimedia .projects-page__video video {
+    position: absolute;
+    height: fit-content;
+    z-index: 1;
+    top: 11%;
+    width: 70%;
+    max-width: 450px;
+}
+
+.projects-page__multimedia .projects-page__gridCont {
+    margin: 100px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.grid__item {
+    text-align: center;
+}
+
+.grid__item .grid__item__img img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    vertical-align: top;
+    object-fit: cover;
+}
+
+.grid__item__img figcaption {
+    line-height: 1.5;
+    font-family: var(--main-font);
+    font-style: italic;
+}
+
+.grid__item .grid__item__overlay {
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid__item__overlay a {
+    text-transform: uppercase;
+    font-family: var(--links-font);
+}
+
+@media screen and (min-width: 1024px) {
+    .projects-page__gridCont .grid__item {
+        position: relative;
+    }
+
+    .grid__item .grid__item__overlay {
+        background: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: none;
+        max-width: 300px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        align-items: center;
+        color: var(--clr-text-reverse);
+        text-align: center;
+    }
+
+    .grid__item:hover .grid__item__overlay {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .grid__item__overlay > a {
+        color: color var(--clr-text-reverse);
+        font-size: 1.6rem;
+        line-height: 1.5;
+        font-weight: 500;
+        position: relative;
+    }
+
+    .grid__item__overlay > a::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        border-radius: 4px;
+        background-color: var(--active-clr);
+        bottom: 0;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .grid__item__overlay > a:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .grid__item__img figcaption {
+        font-size: 1.6rem;
+    }
+}

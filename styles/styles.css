@@ -33,6 +33,7 @@ main > section {
 
 a {
     text-decoration: none;
+    color: var(--clr-text);
 }
 
 ul {
@@ -72,6 +73,7 @@ h3 {
 
 .header .header__logo {
     width: 70px;
+    cursor: pointer;
 }
 
 .header__logo img {
@@ -123,6 +125,8 @@ h3 {
 
 .footer__content .footer__content__logo {
     width: 70px;
+    cursor: pointer;
+    display: block;
 }
 
 .footer__content__logo img {
@@ -238,5 +242,10 @@ h3 {
 
     .banner .banner__textCont > h1 {
         font-size: 6rem;
+    }
+
+    /*--------Footer-Desktop-------*/
+    .footer__content .footer__content__logo {
+        width: 100px;
     }
 }
