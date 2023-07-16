@@ -1,0 +1,125 @@
+.skills {
+    margin-top: 100px;
+}
+
+.skills__textCont > p {
+    font-family: var(--links-font);
+    letter-spacing: 0.09rem;
+    text-align: center;
+}
+
+.skills__barsCont {
+    margin-top: 50px;
+}
+
+.skills__bars__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.skills__bars__list h4 {
+    font-family: var(--links-font);
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+span.bar {
+    display: flex;
+    height: 18px;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+        0 1px rgba(255, 255, 255, 0.08);
+    background: rgba(0, 0, 0, 0.1);
+    padding: 2px;
+}
+
+.bar-inside > span {
+    background-color: var(--active-clr);
+    border-radius: 10px;
+}
+
+span.html {
+    width: 90%;
+    animation: progressHtml 0.9s linear;
+}
+
+span.css {
+    width: 80%;
+    animation: progressCss 0.9s linear;
+}
+
+span.javascript {
+    width: 60%;
+    animation: progressJS 0.9s linear;
+}
+
+span.python {
+    width: 60%;
+    animation: progressPython 0.9s linear;
+}
+
+span.sql {
+    width: 50%;
+    animation: progressSql 0.9s linear;
+}
+
+span.resp-design {
+    width: 80%;
+    animation: progressRespd 0.9s linear;
+}
+
+@keyframes progressHtml {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes progressCss {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes progressJS {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes progressPython {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes progressSql {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes progressRespd {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}

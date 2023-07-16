@@ -3,6 +3,8 @@
     --clr-text-reverse: #e7ecef;
     --main-font: "Lora", serif;
     --links-font: "Open Sans", sans-serif;
+    --active-clr: #f2a359;
+    --main-bg-clr: #d4ece6;
 }
 
 /*--------Global styles-------*/
@@ -25,7 +27,7 @@ body {
 }
 
 main > section {
-    padding-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 a {

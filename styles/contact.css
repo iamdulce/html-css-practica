@@ -48,7 +48,7 @@
 }
 
 .btn {
-    background-color: #b7e8dc;
+    background-color: var(--main-bg-clr);
     color: var(--clr-text);
     font-family: var(--links-font);
     text-transform: uppercase;
@@ -58,6 +58,11 @@
     padding: 10px 30px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
+}
+
+.btn:hoover {
+    background-color: var(--active-clr);
 }
 
 .contact__form > .contact__form__btns {

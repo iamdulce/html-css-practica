@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="/styles/styles.css" />
         <link rel="stylesheet" href="/styles/skills.css" />
+        <link rel="stylesheet" href="/styles/projects-preview.css" />
         <link rel="stylesheet" href="/styles/contact.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -63,31 +64,70 @@
                     <div class="skills__textCont">
                         <h3>About me</h3>
                         <p>
-                            What started as curiosity is now my next
+                            What started as curiosity is now a dream and my next
                             professional goal! My previous experiences as IT
-                            recruiter gave me the opportunity to learn about
-                            developers and their world, I was so invested in
-                            each interview learning about it that I decided to
-                            enroll myself in a Full Stack Bootcamp and be able
-                            to change my career to an exciting area!
+                            Recruiter gave me the opportunity to learn about
+                            software developement, I was so invested in each
+                            interview learning about it that I decided to enroll
+                            myself in a Full Stack Bootcamp and be able to
+                            change my career to an exciting area.
                         </p>
                     </div>
-                    <div class="skills__bars">
+                    <div class="skills__barsCont">
                         <h3>What I've been learning</h3>
-                        <div>>>>>Aquí van las skills<<<<</div>
+                        <div class="skills__bars__list">
+                            <div>
+                                <h4>html</h4>
+                                <span class="bar bar-inside">
+                                    <span class="html"></span>
+                                </span>
+                            </div>
+                            <div>
+                                <h4>css</h4>
+                                <span class="bar bar-inside">
+                                    <span class="css"></span>
+                                </span>
+                            </div>
+                            <div>
+                                <h4>javascript</h4>
+                                <span class="bar bar-inside">
+                                    <span class="javascript"></span>
+                                </span>
+                            </div>
+                            <div>
+                                <h4>python</h4>
+                                <span class="bar bar-inside">
+                                    <span class="python"></span>
+                                </span>
+                            </div>
+                            <div>
+                                <h4>sql</h4>
+                                <span class="bar bar-inside">
+                                    <span class="sql"></span>
+                                </span>
+                            </div>
+                            <div>
+                                <h4>responsive design</h4>
+                                <span class="bar bar-inside">
+                                    <span class="resp-design"></span>
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
             <!-- skills section ends -->
 
-            <!-- projects section begins -->
-            <section class="projects">
+            <!-- projects-preview section begins -->
+            <section class="projects-preview">
                 <div class="wrapper">
-                    <h3>Want to see my projects?</h3>
-                    <a href="">Check here!</a>
+                    <h3 class="projects-preview__title">
+                        Want to see my projects?
+                    </h3>
+                    <a class="projects-preview__link" href="">Check here!</a>
                 </div>
             </section>
-            <!-- projects section ends -->
+            <!-- projects-preview section ends -->
 
             <!-- contact section begins -->
             <section class="contact">
@@ -143,7 +183,7 @@
                                     class="contact__form__input"
                                     type="tel"
                                     id="phone"
-                                    placeholder="your phone number"
+                                    placeholder="phone number [000-00-0000]"
                                     name="phone"
                                     pattern="[0-9]{3}-[0-9]{2}-[0-0]{4}"
                                     title="format is 000-00-0000"
@@ -162,7 +202,7 @@
                                     class="contact__form__input"
                                     type="text"
                                     id="github-user"
-                                    placeholder="github user"
+                                    placeholder="github user [@user]"
                                     name="github"
                                     pattern="^@[\w]+"
                                     title="Format is @user"
@@ -264,21 +304,22 @@
                     </div>
                     <ul class="footer__content__social">
                         <li class="footer__content__social__list">
-                            <a href="github"
+                            <a href="https://github.com/iamdulce"
                                 ><img
                                     src="/assets/mycollectionicons/png/006-github-1.png"
                                     alt="github logo"
                             /></a>
                         </li>
                         <li class="footer__content__social__list">
-                            <a href="linkedin"
+                            <a
+                                href="https://www.linkedin.com/in/dulce-flores-conde/"
                                 ><img
                                     src="/assets/mycollectionicons/png/004-linkedin-1.png"
                                     alt="linkedin logo"
                             /></a>
                         </li>
                         <li class="footer__content__social__list">
-                            <a href="twitter"
+                            <a href="https://twitter.com/IamDulce_"
                                 ><img
                                     src="/assets/mycollectionicons/png/005-gorjeo-1.png"
                                     alt="twitter logo"

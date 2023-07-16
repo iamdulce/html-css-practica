@@ -1,0 +1,24 @@
+.projects-preview {
+    height: 200px;
+    padding-top: 60px;
+    text-align: center;
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0.6),
+            rgba(255, 255, 255, 0.6)
+        ),
+        url(/assets/mae-mu-g733A40xl3Q-unsplash_xqpclt_c_scale\,w_812.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projects-preview .projects-preview__title {
+    padding-bottom: 15px;
+}
+
+.projects-preview .projects-preview__link {
+    font-family: var(--links-font);
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 1.4rem;
+}
