@@ -28,14 +28,14 @@
                 </div>
                 <!-- nav begins -->
                 <nav class="header__nav">
-                    <ul>
-                        <li>
+                    <ul class="header__nav__list">
+                        <li class="header__nav__list__item">
                             <a href="#skills">Skills</a>
                         </li>
-                        <li>
-                            <a href="#projects">Projects</a>
+                        <li class="header__nav__list__item">
+                            <a href="#projects-preview">Projects</a>
                         </li>
-                        <li>
+                        <li class="header__nav__list__item">
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
@@ -59,7 +59,7 @@
         <!-- main begins -->
         <main>
             <!-- skills section begins -->
-            <section class="skills">
+            <section class="skills" id="skills">
                 <div class="wrapper">
                     <div class="skills__textCont">
                         <h3>About me</h3>
@@ -119,7 +119,7 @@
             <!-- skills section ends -->
 
             <!-- projects-preview section begins -->
-            <section class="projects-preview">
+            <section class="projects-preview" id="projects-preview">
                 <div class="wrapper">
                     <h3 class="projects-preview__title">
                         Want to see my projects?
@@ -130,7 +130,7 @@
             <!-- projects-preview section ends -->
 
             <!-- contact section begins -->
-            <section class="contact">
+            <section class="contact" id="contact">
                 <div class="wrapper">
                     <h3>let's connect</h3>
                     <form
@@ -283,7 +283,11 @@
 
                         <div class="contact__form__btns">
                             <input class="btn" type="submit" value="Send" />
-                            <input class="btn" type="reset" value="Reset" />
+                            <input
+                                class="btn btn-secondary"
+                                type="reset"
+                                value="Reset"
+                            />
                         </div>
                     </form>
                 </div>

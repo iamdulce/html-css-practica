@@ -36,7 +36,7 @@ span.bar {
 }
 
 .bar-inside > span {
-    background-color: var(--active-clr);
+    background-color: var(--secondary-bg-clr);
     border-radius: 10px;
 }
 

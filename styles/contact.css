@@ -57,12 +57,20 @@
     letter-spacing: 0.15rem;
     padding: 10px 30px;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
     border: none;
     cursor: pointer;
 }
 
-.btn:hoover {
-    background-color: var(--active-clr);
+.btn.btn-secondary {
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 5px 1px;
+    border: 10px solid var(--secodary-bg-clr);
+}
+
+.btn:hover {
+    background-color: var(--secondary-bg-clr);
+    color: var(--clr-text-reverse);
 }
 
 .contact__form > .contact__form__btns {
