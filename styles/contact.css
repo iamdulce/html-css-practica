@@ -76,3 +76,23 @@
 .contact__form > .contact__form__btns {
     text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+    .contact > .wrapper {
+        max-width: 768px;
+    }
+
+    .contact__form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .contact__form__element__full {
+        grid-column: 1/3;
+    }
+
+    .contact__form__btns {
+        grid-column: 1/3;
+    }
+}

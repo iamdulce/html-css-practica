@@ -123,3 +123,32 @@ span.resp-design {
         width: 80%;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .skills__bars__list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .skills__bars__list > div {
+        min-width: 270px;
+        max-width: 270px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .skills__textCont > p {
+        font-size: 1.6rem;
+    }
+
+    .skills__bars__list > div {
+        max-width: 320px;
+    }
+
+    .skills__bars__list h4 {
+        font-size: 1.3rem;
+    }
+}
