@@ -8,4 +8,4 @@
 -   Uso de animaciones en las barras de skills
 -   Uso de transiciones en los links
 
-_Live project: _
+_Live project:_ https://iamdulce.github.io/html-css-practica/*
